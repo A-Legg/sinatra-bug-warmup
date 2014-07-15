@@ -14,7 +14,6 @@ class App < Sinatra::Base
   get "/" do
     erb :home
   end
-
   get "/register" do
     erb :register
   end
@@ -30,4 +29,4 @@ class App < Sinatra::Base
 
     redirect "/"
   end
-end
+  end
